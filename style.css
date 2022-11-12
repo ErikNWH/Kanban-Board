@@ -63,6 +63,7 @@ ul {
 .backlog-column .solid:hover,
 .backlog-column .over {
   background-color: var(--column-1);
+  transition: all 0.75s;
 }
 
 .progress-column .header,
@@ -70,6 +71,7 @@ ul {
 .progress-column .solid:hover,
 .progress-column .over {
   background-color: var(--column-2);
+  transition: all 0.75s;
 }
 
 .complete-column .header,
@@ -77,6 +79,7 @@ ul {
 .complete-column .solid:hover,
 .complete-column .over {
   background-color: var(--column-3);
+  transition: all 0.75s;
 }
 
 .on-hold-column .header,
@@ -84,6 +87,7 @@ ul {
 .on-hold-column .solid:hover,
 .on-hold-column .over {
   background-color: var(--column-4);
+  transition: all 0.75s;
 }
 
 /* Custom Scrollbar */
@@ -123,6 +127,7 @@ ul {
 /* Drag and Drop */
 .over {
   padding: 50px 10px;
+  transition: all 0.75s;
 }
 
 .drag-item-list {
